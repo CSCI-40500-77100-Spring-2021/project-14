@@ -1,3 +1,4 @@
+// The dummy data used
 const Dummies = [
     {
         id: 1,
