@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>car</title>
+</head>
+<body>
+	<section class="image">
+		<div class="car row container-fluid">
+			<img src="images/car.jpg">
+		</div>
+	</section>
+
+	<section class="contents">
+		<div class="row content">
+			<div class="colour"></div>
+			<h1 class="display-1">Honda Accord 2019 <span class="space">Price : $X/quarter-mile</span>
+			</h1>
+			<h3 class="name display-3">Owner: John Doe </h3>
+			<h3 class="add display-3">Address: 792 Big Indian, New York, NY, 10158</h3>
+			<p class="time">Y minutes from your current location</p>
+			<p class="review">User review: </p>
+			<img src="images/download.png">
+			<button type="button" class="btn btn-primary" id="aler" onclick="notification()">Confirm Car</button>
+
+		</div>
+	</section>
+
+	<script>
+		var msg = document.getElementById('aler');
+
+		function notification(){
+			alert("Please wait 2-3 minutes while we process your request with the owner. We will notify you shortly.")
+		}
+	</script>
+</body>
+</html>

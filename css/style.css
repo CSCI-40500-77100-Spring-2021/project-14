@@ -1,0 +1,67 @@
+body{background: rgb;/* background: #5271ff; */}
+.image{
+    background: #5271ff;
+}
+.car{}
+.car img{
+    margin: auto;
+    max-width: 90%;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+.contents{}
+.content{
+    margin-left: 75px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #5271ff;
+}
+.space{
+    margin-left: 450px;
+    font-size: 50px;
+}
+.colour{
+    /* color: red; */
+    width: 30px;
+    position: absolute;
+    height: 30px;
+    background: red;
+    top: 20px;
+    left: 380px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 500;
+    color: #5271ff;
+}
+.add{
+    font-size: 20px;
+    color: #5271ff;
+    font-weight: 400;
+}
+.time{
+    font-size: 20px;
+    font-weight: 700;
+    color: #5271ff;
+}
+button{
+    width: 350px !important;
+    border-radius: 20% !important;
+}
+.review{
+    position: absolute;
+    color: #5271ff;
+    left: 817px;
+    font-size: 17px;
+    bottom: 75px;
+}
+.content img{
+    max-width: 10%;
+    position: absolute;
+    left: 910px;
+    bottom: 90px;
+}
