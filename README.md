@@ -1,3 +1,13 @@
+# Project-14
+
+## Docker ##
+1. Pull the docker container typing "docker pull red360/containerize"
+2. Rename the container to frontend by typing "docker tag red360/containerize frontend"
+3. In the terminal window, type "docker image ls" you should see two images, "red360/containerize" and "frontend".
+4. Type "docker run -it -p 3000:3000 frontend"
+5. The command will start the development server, as soon as it does, click on http://localhost:3000 this should render you our prototype front-end.
+
+
 While clicking the "drive" button it will show the initial prototype car overview page. List has been mapped via react router.
 # SoftwareEngineeringPrototype
 
