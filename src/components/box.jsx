@@ -2,8 +2,6 @@ import React from "react";
 import "../css/bootstrap.css";
 import "../css/style.css";
 import Button from "./Button.jsx";
-import { Link } from 'react-router-dom';
-import Dummies from "../dummy";
 
 const Box = (props) => {
     return(
