@@ -1,0 +1,28 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.car-font {
+  color: #3d5fda !important;
+}
+
+.car-bg {
+  background: #3d5fda !important;
+}
+
+.car-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #3d5fda;
+}
+
+.car-rent {
+  size: 3rem;
+}

@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+<div class="container mt-5">
+  <h1 class="car-font">Register</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label class="car-font" for="email">Email</label>
+              <input type="email" class="form-control" name="username">
+            </div>
+            <div class="form-group">
+              <label class="car-font" for="password">Password</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <button type="submit" class="btn btn-dark car-bg">Register</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
